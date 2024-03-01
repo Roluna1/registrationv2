@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2d2d30;
+    }
+    .container{
+      width: 100%;
+      max-width: 565px;
+      display: flex;
+      flex-direction: column;
+      background-color: #3e3e42;
+      padding: 30px 20px;
+      border-radius: 25px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .content-details{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .input-details{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin-left: 9px;
+      margin-right: 10px;
+    }
+    .text-details{
+      color: white;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-left: 5px;
+      font-size: 18px;
+    }
+    .text-input-details{
+      height: 35px;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      border-radius: 18px;
+      border: none;
+      padding-left: 10px;
+      font-size: 18px;
+    }
+    .sex-input-box{
+      display: flex;
+      margin-left: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+    .sex-input{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .submit-css{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      margin-top: 15px;
+      height: 50px;
+      margin-top: 20px;
+
+    }
+    .submitbtn{
+      font-family: roboto;
+      font-size: 18px;
+      font-weight: 500;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      background-color: #007acc;
+      width: 100%;
+      cursor: pointer;
+    }
+    .submitbtn:hover{
+      background-color: rgb(54, 151, 216);
+    }
+    input[type="date"] {
+      appearance: none;
+     }   
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <div class="content-details">
+  <div class="input-details">
+  <span class="text-details">First name</span>
+  <input class="text-input-details" type="text">
+  </div>
+  <div class="input-details">
+    <span class="text-details">Middle name</span>
+    <input class="text-input-details" type="text">
+    </div> 
+    <div class="input-details">
+  <span class="text-details">Last name</span>
+  <input class="text-input-details" type="text">
+  </div>
+  <div class="input-details">
+    <span class="text-details">Age</span>
+    <input class="text-input-details" type="number">
+    </div> 
+      <div class="input-details">
+  <span class="text-details">Birthdate</span>
+  <input class="text-input-details" type="date">
+  </div>
+  <div class="input-details">
+    <span class="text-details">Student ID</span>
+    <input class="text-input-details" type="number">
+    </div> 
+      <div class="input-details">
+  <span class="text-details">LRN</span>
+  <input class="text-input-details" type="number">
+  </div>
+  <div class="input-details">
+    <span class="text-details">Address</span>
+    <input class="text-input-details" type="text">
+    </div> 
+</div>
+<div class="sex-input">
+<div class="sex-input-box">
+<span class="text-details">Male</span><input type="radio" class="sex-radio" name="sex">
+</div>
+<div class="sex-input-box">
+<span class="text-details">Female</span><input type="radio" class="sex-radio" name="sex">
+</div>
+</div>
+<div class="submit-css">
+<button class="submitbtn">Submit</button>
+</div>
+</div>
+</body>
+</html>
